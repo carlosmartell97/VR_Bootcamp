@@ -60,16 +60,16 @@ public class UI : MonoBehaviour {
 		for(int i=0; i<6; i++){
 			Debug.Log("at index:"+ins[i]);
 			if(ins[i]==1){
-				GameObject.Find("Sphere").transform.Translate(0,0,3,Space.Self);
+				GameObject.Find("robot-b-127").transform.Translate(0,0,3,Space.Self);
 				StartCoroutine(waitSeconds());
 			}
 			else if(ins[i]==2){
-				GameObject.Find("Sphere").transform.Rotate(0,-90,0);
+				GameObject.Find("robot-b-127").transform.Rotate(0,-90,0);
 				StartCoroutine(waitSeconds());
 			}
 			else if(ins[i]==3){
 				right = true;
-				GameObject.Find("Sphere").transform.Rotate(0,90,0);
+				GameObject.Find("robot-b-127").transform.Rotate(0,90,0);
 				StartCoroutine(waitSeconds());
 			}
 		}
