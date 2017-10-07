@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{470EC417-841A-979B-3B46-39AB55184C95}") = "VR_Bootcamp", "Assembly-CSharp.csproj", "{D26CBBA8-76A4-9C4B-3546-FFCF24F00E66}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR_Bootcamp", "Assembly-CSharp.csproj", "{D26CBBA8-76A4-9C4B-3546-FFCF24F00E66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
